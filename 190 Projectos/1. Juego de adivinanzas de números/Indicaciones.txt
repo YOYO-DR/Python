@@ -1,0 +1,9 @@
+https://thecleverprogrammer.com/2022/06/29/number-guessing-game-using-python/
+
+Number Guessing Game usando Python:
+
+Para crear un juego de adivinanzas, necesitamos escribir un programa 
+para seleccionar un número aleatorio entre 1 y 10. Para dar pistas al 
+usuario, podemos usar declaraciones condicionales decirle al usuario 
+si el número adivinado es menor, mayor o igual que el número seleccionado 
+al azar.

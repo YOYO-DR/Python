@@ -1,0 +1,6 @@
+https://thecleverprogrammer.com/2022/05/26/group-anagrams-using-python/
+
+Agrupe Anagramas usando Python:
+
+Aquí se le dará una lista de palabras y tendrá que escribir un algoritmo 
+para agrupar todas las palabras que son anagramas entre sí.
