@@ -1,11 +1,20 @@
 from tkinter import *
-from tkinter import messagebox
+from tkinter import messagebox,filedialog
+from tkinter.filedialog import asksaveasfile
 
 ventana=Tk()
 ventana.geometry('500x500+850+35')
 
 def acercaDe():
   messagebox.showinfo('Mi software','Sistema de procesos informaticos')
+
+def abrir(): #Si ponemos C abrira la carptera documentos
+  filedialog.askopenfile(initialdir='C',filetypes=(('Ficheros Excel','*.xlsx'),
+  ('Ficheros de texto','*.txt'),('Todos los archivos','*.*')))
+
+def guardar():
+  f=asksaveasfile(mode='w',defaultextension='.txt')
+  f.close()
 
 def actualiza():
   messagebox.showwarning('Actualización','''Actualización disponible
@@ -31,8 +40,8 @@ ventana.config(menu=barraMenu,width=600,height=400)
 #tearoff=0 es para que no aparezca esa primer linea de opcion
 menuArchivo=Menu(barraMenu,tearoff=0)
 menuArchivo.add_command(label='Nuevo')
-menuArchivo.add_command(label='Abrir')
-menuArchivo.add_command(label='Guardar')
+menuArchivo.add_command(label='Abrir',command=abrir)
+menuArchivo.add_command(label='Guardar',command=guardar)
 menuArchivo.add_command(label='Guardar como...')
 menuArchivo.add_separator() # linea para agrupar
 menuArchivo.add_command(label='Cerrar',command=cierraDoc)

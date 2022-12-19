@@ -1,0 +1,3 @@
+Esta aprendiendo a generar archivos de texto
+con python, utilizando la 
+herramienta VSC
