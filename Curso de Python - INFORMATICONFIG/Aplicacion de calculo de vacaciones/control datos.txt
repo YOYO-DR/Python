@@ -1,0 +1,64 @@
+ def control_datos(self):
+        if not self.datonombre.get() or not self.datoapa.get() or not self.datoama.get() \
+                or self.var_combo1.get()==' ' or self.var_combo2.get()==' ':
+            messagebox.showerror('AVISO', 'No deben quedar campos vacios en la selección')
+        if len(self.datonombre.get())>10 or len(self.datoapa.get())>15 or len(self.datoama.get())>15:
+            messagebox.showerror('AVISO','Nombre, o apellidos muy largos!')
+        else:
+            self.area_resultado.config(state=NORMAL)
+            self.area_resultado.delete("1.0","end")
+            if self.var_combo1.get()=='Atención al Cliente':
+                if self.var_combo2.get()=='1 año de servicio':
+                    self.area_resultado.insert(INSERT, self.datonombre.get()+' '+self.datoapa.get()+' '+self.datoama.get()+\
+                                       '\n Departamento: '+ self.var_combo1.get()+\
+                                       '\n Antigüedad:'+ self.var_combo2.get()+\
+                                       '\n\n RECIBE 14 DIAS DE VACACIONES')
+                if self.var_combo2.get() == '2 a 6 años de servicio':
+                    self.area_resultado.insert(INSERT, self.datonombre.get() + ' ' + self.datoapa.get() + ' ' + self.datoama.get() + \
+                                               '\n Departamento: ' + self.var_combo1.get() + \
+                                               '\n Antigüedad:' + self.var_combo2.get() + \
+                                               '\n\n RECIBE 18 DIAS DE VACACIONES')
+                if self.var_combo2.get() == '7 o mas años de servicio':
+                    self.area_resultado.insert(INSERT, self.datonombre.get() + ' ' + self.datoapa.get() + ' ' + self.datoama.get() + \
+                                               '\n Departamento: ' + self.var_combo1.get() + \
+                                               '\n Antigüedad:' + self.var_combo2.get() + \
+                                               '\n\n RECIBE 22 DIAS DE VACACIONES')
+            if self.var_combo1.get() == 'Departamento de Logística':
+                if self.var_combo2.get() == '1 año de servicio':
+                    self.area_resultado.insert(INSERT,
+                                               self.datonombre.get() + ' ' + self.datoapa.get() + ' ' + self.datoama.get() + \
+                                               '\n Departamento: ' + self.var_combo1.get() + \
+                                               '\n Antigüedad:' + self.var_combo2.get() + \
+                                               '\n\n RECIBE 10 DIAS DE VACACIONES')
+                if self.var_combo2.get() == '2 a 6 años de servicio':
+                    self.area_resultado.insert(INSERT,
+                                               self.datonombre.get() + ' ' + self.datoapa.get() + ' ' + self.datoama.get() + \
+                                               '\n Departamento: ' + self.var_combo1.get() + \
+                                               '\n Antigüedad:' + self.var_combo2.get() + \
+                                               '\n\n RECIBE 15 DIAS DE VACACIONES')
+                if self.var_combo2.get() == '7 o mas años de servicio':
+                    self.area_resultado.insert(INSERT,
+                                               self.datonombre.get() + ' ' + self.datoapa.get() + ' ' + self.datoama.get() + \
+                                               '\n Departamento: ' + self.var_combo1.get() + \
+                                               '\n Antigüedad:' + self.var_combo2.get() + \
+                                               '\n\n RECIBE 20 DIAS DE VACACIONES')
+            if self.var_combo1.get() == 'Departamento de Gerencia':
+                if self.var_combo2.get() == '1 año de servicio':
+                    self.area_resultado.insert(INSERT,
+                                               self.datonombre.get() + ' ' + self.datoapa.get() + ' ' + self.datoama.get() + \
+                                               '\n Departamento: ' + self.var_combo1.get() + \
+                                               '\n Antigüedad:' + self.var_combo2.get() + \
+                                               '\n\n RECIBE 18 DIAS DE VACACIONES')
+                if self.var_combo2.get() == '2 a 6 años de servicio':
+                    self.area_resultado.insert(INSERT,
+                                               self.datonombre.get() + ' ' + self.datoapa.get() + ' ' + self.datoama.get() + \
+                                               '\n Departamento: ' + self.var_combo1.get() + \
+                                               '\n Antigüedad:' + self.var_combo2.get() + \
+                                               '\n\n RECIBE 25 DIAS DE VACACIONES')
+                if self.var_combo2.get() == '7 o mas años de servicio':
+                    self.area_resultado.insert(INSERT,
+                                               self.datonombre.get() + ' ' + self.datoapa.get() + ' ' + self.datoama.get() + \
+                                               '\n Departamento: ' + self.var_combo1.get() + \
+                                               '\n Antigüedad:' + self.var_combo2.get() + \
+                                               '\n\n RECIBE 30 DIAS DE VACACIONES')
+            self.area_resultado.config(state=DISABLED)

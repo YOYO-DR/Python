@@ -1,0 +1,61 @@
+('F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+ 'calculo de vacaciones\\build\\bienvenida\\bienvenida.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0,
+  'SPLASH': 1},
+ [('PYZ-00.pyz',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de vacaciones\\build\\bienvenida\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de vacaciones\\build\\bienvenida\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de vacaciones\\build\\bienvenida\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de '
+   'vacaciones\\build\\bienvenida\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de vacaciones\\build\\bienvenida\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de vacaciones\\build\\bienvenida\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de '
+   'vacaciones\\env\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de '
+   'vacaciones\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de '
+   'vacaciones\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('bienvenida',
+   'F:\\programacion\\Python\\Curso de Python - INFORMATICONFIG\\Aplicacion de '
+   'calculo de vacaciones\\bienvenida.py',
+   'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
