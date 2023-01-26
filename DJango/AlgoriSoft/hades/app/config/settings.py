@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #Apss
+    'core.erp'
 ]
 
 MIDDLEWARE = [
@@ -74,6 +76,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = db.SQLITE
 DATABASES = db.MYSQL
 
 
