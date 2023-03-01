@@ -1,0 +1,323 @@
+1. Calcular el área y perímetro de un triángulo rectángulo si se conocen los valores de sus
+catetos.
+2. Dado el costo de un artículo vendido y la cantidad de dinero entregada por el cliente,
+calcula e imprime el cambio que debe entregársele al mismo.
+3. Elevar un número al cubo.
+4. Calcular el costo total de la compra de 1110 bates de béisbol cuyo costo es de $10
+cada uno.
+5. Calcula el IVA de una cantidad determinada.
+6. Transforma n metros a centímetro.
+7. Realiza el promedio de 4 calificaciones de una misma materia.
+8. Calcula el valor de y = 2x + 3 en el punto (5,3).
+9. Realiza un programa que efectúe la transformación de horas a minutos.
+10. Evalúa el punto medio del segmento de recta comprendido entre los puntos (3,- 5) y
+(9,8)
+11. Convertir una cantidad de metros a kilómetros, centímetros, milímetros y millas, según
+selección del usuario.
+12. Aplicar un aumento de 15% a un trabajador si su sueldo es inferior a $1000
+mensuales y 12% en caso contrario.
+13. Calcular el precio de un boleto de ida y vuelta en ferrocarril, conociendo la distancia
+del viaje de ida y el tiempo de estancia. Se sabe, además, que si el número de días de
+estancia es superior a 7 y la distancia total (ida y vuelta) a recorrer es superior a 800 km,
+el boleto tiene un descuento del 30%. El precio por kilómetro es $0.25
+14. Los conjuntos deportivos tienen un precio de $500 cada uno si se compran menos de
+3, y de 450 si se compran 3 o más. Obtener el total a pagar dependiendo del número de
+conjuntos a comprar.
+15. Una escuela tiene el siguiente problema: si el alumno obtiene una calificación de
+menos de 65 puntos no aprobará el curso, en otro caso lo aprobará. Utilizando un
+diagrama de flujo se planteará la solución al problema.
+16. Una tienda de deportes vende pelotas de béisbol a $10 cada una, si se compran
+menos de 5, y a $14, si se compran 5 ó más; se quiere saber el costo total de la compra,
+dependiendo del número de pelotas solicitadas.
+17. Indica si un número entero positivo es primo o no
+18. Obtener la suma de todos los números enteros pares y la suma de los números
+impares comprendidos entre 1 y N, en donde N es un entero positivo.
+19. Encontrar la solución de una ecuación cuadrática si se conocen sus coeficientes.
+20. Si una persona (Antonio) deposita $1000 al 8% y otra (Marco) deposita $2000 al 3%,
+¿cuántos años deberán pasar para que Antonio tenga más dinero que Marco?
+21. Resolver la ecuación X=4Y - 2, sustituyendo en Y los valores comprendidos en el
+intervalo [-2 , 8]. Mostrar en una tabla los valores obtenidos para Y y X.
+22. Dado un número, obtenga la sumatoria de dicho número. (La sumatoria de un número
+n está dada por la suma consecutiva de todos los números hasta n; por ejemplo:
+sumatoria de 3 es igual a sumar 3+2+1).
+23. Calcular la suma de los primeros n números enteros positivos
+24. Realizar la lectura de una lista de números y determinar cuántos son positivos, y
+cuántos son negativos.
+25. Imprimir la lista de números pares que se encuentran contenidos entre los números a
+y b.
+26. Modifica el ejercicio anterior para que imprima los números impares.
+27. Solicitar al usuario el ingreso de una contraseña desde el teclado. El programa deberá
+continuar su ejecución hasta que la contraseña sea correcta.
+28. Elabora un programa que multiplique dos números enteros positivos utilizando sumas
+sucesivas (a x b, significa sumar b veces el número a).
+29. Elabora un programa que calcule la parte entera de la división de dos números
+enteros positivos utilizando restas sucesivas.
+30. Elabora un programa que calculé el promedio de calificación de matemáticas para un
+grupo de 50 alumnos.
+31. Desarrollar un programa que permita ingresar un vector de 10 elementos, e informe:
+- El valor acumulado de todos los elementos del vector.
+- El valor acumulado de los elementos del vector que sean mayores a 36.
+- Cantidad de valores mayores a 50.
+32. Desarrollar un programa que permita ingresar un vector de 15 elementos, e informe:
+- El menor número almacenado en el vector
+- El mayor número almacenado en el vector
+- El promedio de los números almacenados
+33. Hacer un algoritmo que lea 20 números enteros, como resultado debe informar:
+- Promedio de los números pares
+- Promedio de los números impares
+- La suma de los elementos que ocupan las posiciones pares en el arreglo.
+- suma de los elementos que ocupan las posiciones impares en el arreglo.
+34. Capture diez números enteros, almacenarlos en un arreglo y determinar en qué
+posición está el número con más dígitos.
+35. Cargar un vector de 10 elementos y realizar la ordenación del vector de forma
+descendente y ascendente. Se deben almacenar los dos vectores resultantes en dos
+variables nuevas.
+36. Pide la edad y si es mayor de 18 años indica que ya puede conducir.
+37. Pide una nota (número). Muestra la calificación según la nota:
+0-3: Muy deficiente
+3-5: Insuficiente
+5-6: Suficiente
+6-7: Bien
+7-9: Notable
+9-10: Sobresaliente
+38. Realiza un script que pida cadenas de texto hasta que se ingrese “cancelar”. Al salir
+deben mostrarse todas las cadenas concatenadas con un guión -.
+39. Realiza un script que pida números hasta que se ingrese “cancelar”. Si no es un
+número deberá indicarse con una alerta y seguir pidiendo. Al salir con “cancelar” deberá
+indicarse la suma total de los números introducidos.
+40. Realiza un script que escriba una pirámide del 1 al 30 de la siguiente forma :
+1
+22
+333
+4444
+55555
+666666
+41. Haz un script que escriba una pirámide inversa de los números del 1 al número que
+indique el usuario de la siguiente forma: (suponiendo que indica 30).
+303030303030303030303030303030303030303030303030303030303030
+2929292929292929292929292929292929292929292929292929292929
+28282828282828282828282828282828282828282828282828282828
+…..
+333
+22
+1
+42. Crea script para generar pirámide siguiente con los números del 1 al número que
+indique el usuario (no mayor de 50) :
+1
+12
+123
+1234
+12345
+123456
+……
+43. Un script que escriba los números del 1 al 500, que indique cuales son múltiplos de 4
+y de 9 y que cada 5 líneas muestre una línea horizontal. Por ejemplo :
+1
+2
+3
+4 (Múltiplo de 4)
+5- ————————————————————-
+6
+7
+8 (Múltiplo de 4)
+9 (Múltiplo de 9)
+10
+44. Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro
+cada una de las celdas deberá escribirse un número consecutivo en orden descendente.
+Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
+45. Realiza un script que pida por teclado 3 edades y 3 nombres e indique el nombre del
+mayor
+46. Realiza un script que genere un número aleatorio entre 1 y 99
+47. Genera 3 números aleatorios entre 1 y 99 pero que no se repita ninguno
+48. Realiza un script que imprima 14 resultados aleatorios de una quiniela 1 X 2.
+49. Realiza el script anterior, pero con la probabilidad de que salga el 1 sea del 60%, la de
+la X del 30% y la del 2 del 10%
+50. Realiza un script que pida un texto y lo muestre en mayúsculas
+51. Realiza un script que pida una cadena de texto y la muestre poniendo el signo – entre
+cada carácter sin usar el método replace. Por ejemplo, si tecleo “hola qué tal” , deberá
+salir “h-o-l-a- -q-u-e- -t-a-l”.
+52. Realiza un script que cuente el número de vocales que tiene un texto
+53. Pedimos una cadena de texto que sabemos que puede contener paréntesis. Realiza
+un script que extraiga la cadena que se encuentra entre los paréntesis. Ejemplo: Si
+escribimoe el texto “Hola (que) tal” se mostrará “que”. Si no existe el signo “(“ mostrará
+una cadena vacía y si existe el signo “(“pero no el signo “)” mostrará desde el primer
+paréntesis hasta el final.
+54. Realiza un script que pida una cadena de texto y la devuelva al revés. Es decir, si
+tecleo “hola que tal” deberá mostrar “lat euq aloh”.
+55. Realiza un script que pida un texto e indique si es un palíndromo. Ejemplo de
+palíndromo: “Dabale arroz a la zorra el abad”
+56. Realiza un script que muestre la posición de la primera vocal de un texto introducido
+por teclado
+57. Realiza un script que muestre la serie de fibonacci hasta un número entre 1 y 100
+pedido por teclado
+58. Realiza un juego de Piedra Papel Tijera contra el Pc.
+59. Crea una función que devuelva el número PI con dos decimales.
+60. Crea una función que reciba 2 parámetros, precio e iva, y devuelva el precio con iva
+incluido. Si no recibe el iva, aplicará el 21 por ciento por defecto.
+61. Crea una función que reciba un texto y lo devuelva al revés
+62. Crea una función que genere número entero aleatorio entre min y max, que serán
+pasados como parámetros. Por defecto min = 1 y max = 100
+63. Crea una función que genere 100 números aleatorios entre 1 y 1000 que no se repitan
+y luego muestralos por pantalla
+64. Realiza un script que escriba en la terminal la fecha y hora actual. La salida deberá
+tener el siguiente formato:
+Hoy es martes, 28 de Febrero de 2018 y son las 14:32 horas.
+65. Realiza un script que pida un nombre y dos apellidos e indique el tiempo que se tardó
+en introducir los datos. La salida sería algo así como : En introducir Luís Perez Alonso ha
+tardado 25 segundos.
+66. Realiza un script pida un mes y año e imprima su calendario. No hace falta esmerarse
+en la presentación del calendario, el calendario simplificado puede ser del tipo:
+OCTUBRE – 2014
+1 (miercoles), 2 (jueves), ….. , 31 (viernes).
+67. Realiza un script que pida una fecha y muestre tres fechas que sean la fecha
+introducida a 30, 60 y 90 días.
+68. Realiza un script que muestre un reloj en pantalla con fecha y hora y que se actualice
+cada segundo. Función sleep().
+69. Dado N notas de un estudiante calcular:
+a) Cuantas notas tiene desaprobados.
+b) Cuantos aprobados.
+c) El promedio de notas.
+d) El promedio de notas aprobadas y desaprobadas.
+70. Dado un número determinar la suma de sus dígitos.
+71. Realizar un algoritmo que permita pedir 50 números naturales y determine e imprima
+cuantos son pares, impares, positivos y negativos.
+72. Desarrollar un algoritmo para calcular e imprimir el factorial de un número.
+73. Calcular la media de 100 números e imprimir su resultado. variables: suma(s), media
+74. Calcular y visualizar la suma y el producto de los números pares comprendidos entre
+20 y 400 ambos inclusive. variables: suma(s), producto(p)
+75. Hacer un programa que permita escoger en un conjunto de números naturales:
+· Cuales son menores que 15.
+· Cuales son mayores de 50.
+· Cuales están comprendidos entre 25 y 50. *el programa termina con el ingreso de
+un numero negativo o el numero de iteraciones debe ser 100.
+76. Hacer un programa que determine si un número tiene o no parte fraccionaria.
+77. Calcular el número mayor de una lista de números.
+78. De una lista de 100 números determinar simultáneamente el máximo y mínimo
+número.
+79. Se ingresan 5 notas de un alumno, publicar las 2 peores notas.
+80. ¿Dada N notas calcular el promedio de las notas aprobadas y el promedio de las
+notas desaprobadas?
+81. ¿Dado N calcular:(1¹)+(2²)+(3³)+......+(N^N)?
+82. ¿Dado N y X calcular: x1/1+x3/3+x5/5+...........+x(2n)-1?
+83. ¿A una fiesta asistieron personas de diferentes edades y sexos. Construir un
+algoritmos dadas las edades y sexos de las personas? Calcular :
+-Cuantas personas asistieron a la fiesta
+-Cuantos hombres y cuantas mujeres
+-Promedio de edades por sexo
+-La edad de la persona más joven que asistió
+-No se permiten menores de edad a la fiesta
+-Ingresar datos hasta que se ingrese una edad a cero
+84. ¿Dada las horas trabajadas de 20 personas y la tarifa de pago calcular el salario?
+85. De una lista de 10 números calcular la media y determinar cuantos son mayores que
+ella, cuántos son iguales y cuántos son menores.
+86. Elaborar un algoritmo que permita ingresar 20 números y muestre todos los números
+menores e iguales a 25
+87. Elaborar un algoritmo, que permita el ingreso de 100 números enteros. El programa
+debe sumar todos los números que sean múltiplos de 3.
+88. Mostrar las 30 primeras potencias de 3 y la suma de ellos.
+89. Hacer un algoritmo que pida 10 edades y mostrarlas en orden inverso al que fueron
+ingresados.
+90. Leer 200 números y obtener cuantos son positivos, negativos e iguales a cero.
+91. Se desea calcular independientemente la suma de los números pares e impares
+comprendidos entre 1 y 50.
+92. Determinar la media aritmética de una lista de n números positivos.
+93. Diseñar un algoritmo que calcule los 5 primeros números impares que preceden a un
+numero N ingresado por teclado.
+94. Ingresar una lista de 25 notas y determinar cuantas estas fueron aprobadas
+95. Diseñar un algoritmo que me permita calcular las 5 primeras parejas de números
+primos gemelos(dos números son primos gemelos si además de ser números primos, la
+diferencia entre ellos es exactamente dos).
+96. Diseñar un algoritmo que me permita calcular los 5 primeros números perfectos (un
+numero es perfecto, cuando la suma de sus divisores, sin incluirlo al numero es
+exactamente el mismo numero). El 6 es un numero perfecto por sus divisores son 1,2 y 3.
+97. Ingresar el número del mes y determinar cuantos días tiene el mes, para el caso de
+Febrero, el algoritmo deberá indicar que no cuenta con la información necesaria para dar
+la respuesta.
+98. Hacer un programa que lea 50 consumos de un restaurante. Si el consumo ingresado
+excede los 70 bolivianos, el dscto será de 5%. Muestre rodos los pagos hechos.
+99. Dado a, b determinar el valor de la división entera y el resto de la división entera de a,
+b (sin usar los operadores de div. Mod)
+100. Elaborar un programa que muestre el mensaje: "es múltiplo de 2" si es que el
+número lo es, "es múltiplo de 3" si es que lo es, y "es múltiplo de 5" si es que el número lo
+es. Todo esto dentro de la lectura de 200 números.
+101. Hacer un programa que sume 5 precios de las camisas (en dólares) y que luego
+muestre el total de la venta en pesos..
+102. Una tienda se dedica a la venta de computadoras, cuenta con 10 vendedores. Cada
+uno de ellos tiene un sueldo mensual pero además de su sueldo ganan una comisión por
+venta Si el monto de venta es mayor de 1000 la comisión será del 15% Si el monto de
+venta es mayor ó = a 500 y menor de 1000 la comisión es del 5% Si el monto de la venta
+es menor que 500 no tiene comisión
+103. Calcular la suma de los n primeros números enteros desde el numero 8
+S=8+9+10+11+...+N
+104. La compañía Barner posee una caja con $3.71 con la cual empieza todos los días
+diariamente se registran egresos. Calcular los egresos de la compañía y mostrar cuanto
+queda en caja. (el programa termina cuando se ingresa un egreso imaginario de -1)
+105. Calcular el promedio de las edades de un grupo de N personas siempre y cuando
+dichas edades sean menores a 20 y sean mayores 55
+106. Calcular el acumulado de las edades de un grupo de N personas siempre y cuando
+dichas edades sean mayores a 18 y no pasen los 45.
+107. Crea una clase llamada "Coche" que tenga como atributos la marca, modelo, color, y
+velocidad actual. También debe tener un método llamado "acelerar" que incremente la
+velocidad actual en 10 km/h.
+108. Crea una clase llamada "Persona" que tenga como atributos el nombre, edad,
+género y nacionalidad. También debe tener un método llamado "saludar" que imprima un
+mensaje de saludo con el nombre de la persona.
+109. Crea una clase llamada "CuentaBancaria" que tenga como atributos el número de
+cuenta, el titular de la cuenta y el saldo actual. También debe tener métodos para
+depositar y retirar dinero de la cuenta.
+110. Crea una clase llamada "Estudiante" que tenga como atributos el nombre, la edad, el
+género, el número de estudiante y el promedio de calificaciones. También debe tener un
+método llamado "estudiar" que simule el acto de estudiar y aumente el promedio de
+calificaciones en 0.5 puntos.
+111. Crea una clase llamada "Rectángulo" que tenga como atributos el ancho y la altura.
+También debe tener métodos para calcular el área y el perímetro del rectángulo.
+112. Crea una clase llamada "Círculo" que tenga como atributo el radio. También debe
+tener métodos para calcular el área y el perímetro del círculo.
+113. Crea una clase llamada "Animal" que tenga como atributos el nombre, la edad y la
+especie. También debe tener métodos para hacer que el animal hable y se mueva.
+114. Crea una clase llamada "Libro" que tenga como atributos el título, el autor y el
+número de páginas. También debe tener métodos para imprimir la información del libro y
+para leer una página específica del mismo.
+115. Crea una clase llamada "CajeroAutomático" que tenga como atributos la cantidad de
+billetes de cada denominación disponibles en el cajero. También debe tener métodos para
+retirar y depositar dinero.
+116. Crea una clase llamada "Fracción" que tenga como atributos el numerador y el
+denominador. También debe tener métodos para sumar, restar, multiplicar y dividir
+fracciones.
+117. Crea una ventana con un botón que al hacer clic en él, imprima un mensaje en la
+consola.
+118. Crea una ventana con un campo de entrada y un botón. Al hacer clic en el botón, el
+programa debe imprimir en la consola el texto introducido en el campo de entrada.
+119. Crea una ventana con un botón que al hacer clic en él, cambie el color de fondo de la
+ventana a uno aleatorio.
+120. Crea una ventana con un botón que al hacer clic en él, abra un cuadro de diálogo
+para seleccionar un archivo y lo imprima en la consola.
+121. Crea una ventana con dos botones, uno para sumar y otro para restar. Al hacer clic
+en cada uno de ellos, el programa debe actualizar un campo de texto con el resultado de
+la operación correspondiente.
+122. Crea una ventana con una etiqueta y un botón. Al hacer clic en el botón, el programa
+debe actualizar la etiqueta con un mensaje aleatorio.
+123. Crea una ventana con una lista desplegable que muestre varias opciones. Al
+seleccionar una de las opciones, el programa debe imprimir en la consola el valor
+seleccionado.
+124. Crea una ventana con un campo de entrada y un botón. Al hacer clic en el botón, el
+programa debe validar el texto introducido en el campo de entrada y mostrar un mensaje
+de error si no cumple con ciertos requisitos.
+125. Crea una ventana con un canvas y un botón. Al hacer clic en el botón, el programa
+debe dibujar un círculo en el canvas.
+126. Crea una ventana con una barra de progreso y un botón. Al hacer clic en el botón, el
+programa debe actualizar la barra de progreso hasta que esté completa.
+127. Conectarse a una base de datos MySQL y imprimir el nombre de todas las tablas.
+128. Crear una nueva tabla en una base de datos MySQL y agregar algunos datos.
+129. Actualizar un registro en una tabla de MySQL.
+130. Eliminar un registro de una tabla de MySQL.
+131. Crear una consulta que devuelva todos los registros de una tabla de MySQL.
+132. Crear una consulta que devuelva los registros que cumplan ciertos criterios (por
+ejemplo, registros cuyo valor en un campo sea mayor que un número determinado).
+133. Crear una consulta que devuelva los registros ordenados por un campo específico.
+134. Crear una consulta que devuelva los registros agrupados por un campo específico y
+que calcule el promedio, la suma o el máximo de otro campo.
+135. Crear una consulta que devuelva los registros que se encuentran en una tabla y no
+en otra.
+136. Crear una consulta que devuelva el número de registros de una tabla que cumplen
+ciertos criterios.
